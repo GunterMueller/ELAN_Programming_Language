@@ -657,8 +657,8 @@ configure:13010: $? = 0
 configure:13010: result: yes
 configure:13016: checking for _doprnt
 configure:13016: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccMkOY7J.o: in function `main':
-/home/gunter/GMTEMP/ELAN/elan-1.11/conftest.c:75: undefined reference to `_doprnt'
+/usr/bin/ld: /tmp/ccDAh2z3.o: in function `main':
+/home/gunter/GM_Programming/Languages/ELAN/elan-1.11/conftest.c:75: undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:13016: $? = 1
 configure: failed program was:
@@ -784,6 +784,7 @@ config.status:1138: creating egraphics/Makefile
 config.status:1138: creating scripts/Makefile
 config.status:1138: creating exp/Makefile
 config.status:1138: creating config.h
+config.status:1319: config.h is unchanged
 config.status:1367: executing depfiles commands
 config.status:1367: executing libtool commands
 
@@ -894,15 +895,15 @@ lt_cv_to_tool_file_cmd=func_convert_file_noop
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run aclocal-1.11'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run tar'
+AMTAR='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run tar'
 AR='ar'
-AUTOCONF='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run automake-1.11'
+AUTOCONF='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run automake-1.11'
 AWK='gawk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
@@ -914,8 +915,8 @@ CURSES_OPT=''
 CYGPATH_W='echo'
 DBG_OPT='-O'
 DCG='/usr/local/bin/dcg'
-DCG_IPATH=''
-DCG_LPATH=''
+DCG_IPATH='/usr/local/share/dcg/include'
+DCG_LPATH='/usr/local/lib'
 DEFS='-DHAVE_CONFIG_H'
 DEPDIR='.deps'
 DLLTOOL='false'
@@ -947,7 +948,7 @@ LIBTOOL_DEPS='./ltmain.sh'
 LIPO=''
 LN_S='ln -s'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/missing --run makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/usr/bin/mkdir -p'
 NM='/usr/bin/nm -B'
@@ -1008,7 +1009,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/gunter/GMTEMP/ELAN/elan-1.11/install-sh'
+install_sh='${SHELL} /home/gunter/GM_Programming/Languages/ELAN/elan-1.11/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
